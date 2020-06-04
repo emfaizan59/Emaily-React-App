@@ -70,7 +70,7 @@ const ReviewSurvey = (props) => {
                          
             </List>
               <Button variant="outlined" onClick={() => {props.onSurveyReviewFlag()}}>Back</Button>
-              <Button variant="outlined" onClick={() => {surveyFormSend(surveyForm(formValues , props.history))}}>Send Survey</Button>
+              <Button variant="outlined" onClick={() => {surveyFormSend(sureveyForm(formValues , props.history))}}>Send Survey</Button>
 
            </div>
            
